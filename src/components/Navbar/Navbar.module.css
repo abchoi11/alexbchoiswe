@@ -1,0 +1,28 @@
+.nav {
+    background-color:antiquewhite;
+    padding-top: 1vh;
+    padding-right: 5vw;
+    width: 100%;
+}
+
+.home {
+    text-decoration: none;
+    margin-left: 6vw;
+    margin-right: 10vw;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: white;
+    width: max-content;
+    font-family: "italiana";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 15vw;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: white;
+    width: max-content;
+}
