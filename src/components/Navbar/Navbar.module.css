@@ -1,28 +1,35 @@
 .nav {
-    background-color:antiquewhite;
-    padding-top: 1vh;
+    background: rgba(255, 255, 255, 0.582);
+    backdrop-filter: saturate(180%) blur(10px);
     padding-right: 5vw;
     width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
 .home {
     text-decoration: none;
+    width: fit-content;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     margin-left: 6vw;
     margin-right: 10vw;
-    margin-top: 1vh;
+}
+
+.signature {
+    width: 4.5vw;
     text-decoration: none;
-    color: white;
-    width: max-content;
-    font-family: "italiana";
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .link {
     text-decoration: none;
-    margin-left: 15vw;
+    margin-left: 13vw;
     margin-top: 1vh;
     text-decoration: none;
-    color: white;
+    color: rgb(87, 87, 87);
     width: max-content;
+    font-size: 2.5vmin;
 }

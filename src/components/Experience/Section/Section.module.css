@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    margin-top: 2vh;
+    overflow-y: hidden;
+}
+
+.left {
+    width: 20vw;
+}
+.circle {
+    width: 7vmax;
+    height: 7vmax;
+    border: 1px solid;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5vmax;
+    border-radius: 5px;
+}
+
+.line {
+    margin-top: 2vh;
+    width: 1px;
+    height: 80%;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2vh;
+}
+
+.right {
+    width: 70%;
+    padding-bottom: 10vh;
+}
+
+.list {
+    margin-top: 2vh;
+    transform: translateX(-10px);
+}
+
+.bullet {
+    margin-top: 2vh;
+    font-size: 3vmin;
+}

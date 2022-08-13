@@ -5,14 +5,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "./Navbar.module.css"
+import signature from "../../images/signature.png"
 
 function NavigationBar(props) {
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <div className={styles.nav}>
+      <Navbar collapseOnSelect expand="lg" >
         <Container>
           <Navbar.Brand>
-            <Link className={styles.home} to="/">Home</Link>
+            <Link className={styles.home} to="/">
+              <img className={styles.signature} src={signature} />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
