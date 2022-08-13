@@ -1,6 +1,14 @@
 .main {
     padding-bottom: 35vh;
+}
 
+@keyframes lol{
+  from {
+    background-color: rgb(0, 0, 0);
+  }
+  to {
+    background-color: rgb(255, 255, 255);
+  }
 }
 
 .heading {
@@ -11,7 +19,16 @@
     padding-bottom: 4vh;
     margin-left: 10vw;
     margin-right: 10vw;
-    animation: tracking-in-expand-fwd 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    background-image: linear-gradient(to right, #ff2e74, #4c4ff8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 100s linear 1s infinite, tracking-in-expand-fwd 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes rainbow-animation {
+  to {
+    background-position: 4500vh;
+  }
 }
 
 @keyframes tracking-in-expand-fwd {
@@ -34,7 +51,7 @@
 .quote {
     font-size: 3vmin;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 17vw;
+    margin-right: 17vw;
     animation: tracking-in-expand-fwd 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }

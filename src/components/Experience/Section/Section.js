@@ -17,7 +17,7 @@ function Section({ logo, title, company, date, description, end}) {
           {line}
         </div>
         <div className={styles.right}>
-          <h2>{title}</h2>
+          <h2 className={styles.title}>{title}</h2>
           <h4>{company}</h4>
           <h4>{date}</h4>
           <ul className={styles.list}>
