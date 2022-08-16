@@ -5,6 +5,7 @@ import Project from "../components/Projects/Project/Project";
 import ps from "../images/pick-six.png"
 import personal from "../images/personal.png"
 import tetris from "../images/tetris.png"
+import Footer from "../components/Footer/Footer";
 
 function Projects(props) {
   return (
@@ -50,6 +51,7 @@ function Projects(props) {
         image={tetris}
         techStack={["Java", "JavaFx", "Git/Github"]}
       />
+      <Footer/>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import NavigationBar from "../components/Navbar/NavigtionBar";
 import sciquel from "../images/sciquel.png";
 import mentors from "../images/mentors.png";
 import fs from "../images/fs.png";
+import Footer from "../components/Footer/Footer";
 
 function Experience(props) {
 
@@ -56,6 +57,7 @@ function Experience(props) {
         ]}
         end={true}
       />
+      <Footer/>
     </div>
   );
 }
