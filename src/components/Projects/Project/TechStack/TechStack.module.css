@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    margin-top: 5vh;
+    border: 1px solid;
+    width: fit-content;
+    padding: 0.5vh 1vw;
+    border-radius: 20px;
+    margin-left: 2vw;
+}
+
+.tech {
+    margin: 0;
+}

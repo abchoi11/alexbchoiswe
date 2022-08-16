@@ -1,5 +1,5 @@
 .main {
-    padding-bottom: 35vh;
+    padding-bottom: 30vh;
 }
 
 @keyframes lol{
@@ -54,4 +54,11 @@
     margin-left: 17vw;
     margin-right: 17vw;
     animation: tracking-in-expand-fwd 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .heading {
+    font-size: 10vmax;
+  }
 }

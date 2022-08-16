@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Section.module.css";
 import { Container, Row, Col } from "react-bootstrap";
-import sciquel from "../../../images/sciquel.png";
 
 function Section({ logo, title, company, date, description, end}) {
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Section from "../components/Experience/Section/Section";
 import Header from "../components/Header/Header";
 import NavigationBar from "../components/Navbar/NavigtionBar";
@@ -7,6 +7,11 @@ import mentors from "../images/mentors.png";
 import fs from "../images/fs.png";
 
 function Experience(props) {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <NavigationBar />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from "./Home.module.css";
 import logo from "../images/logo.png";
 import flowers from "../images/flowers.png";
@@ -11,8 +11,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Home(props) {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
-    <div>
+    <div className={styles.main}>
       <Row className="g-0">
         <Col lg={9}>
           <h1 className={styles.heading}>
@@ -29,6 +34,7 @@ function Home(props) {
             <a
               className={styles.socialslink}
               href="https://www.linkedin.com/in/alexander-choi-46a47a204/"
+              target="_blank"
             >
               <div className={styles.circle}>
                 <img className={styles.socials} src={linkedin} />
@@ -37,6 +43,7 @@ function Home(props) {
             <a
               className={styles.socialslink}
               href="https://github.com/abchoi11"
+              target="_blank"
             >
               <div className={styles.circle}>
                 <img className={styles.socials} src={github} />
@@ -45,6 +52,7 @@ function Home(props) {
             <a
               className={styles.socialslink}
               href="mailto:alexander_b_choi@brown.edu"
+              target="_blank"
             >
               <div className={styles.circle}>
                 <img className={styles.socials} src={mail} />

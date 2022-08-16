@@ -1,0 +1,71 @@
+.main {
+    padding-bottom: 10vh;
+}
+
+.box {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: rgb(245, 245, 245);
+    padding: 2vmax;
+    border-radius: 20px;
+}
+.top {
+    display: flex;
+}
+
+.title {
+    font-size: 3vmax;
+    margin-bottom: 2vh;
+}
+
+.link {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-size: 2.5vmax;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    transform: translateX(-15px);
+}
+
+.bullet {
+    margin-top: 1vh;
+}
+
+.image {
+    width: 100%;
+    border-radius: 15px;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.ts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    margin-top: 5vh;
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5vh 1vmax;
+    border-radius: 20px;
+    margin-left: 2vw;
+}
+
+.repo {
+    margin-top: 4vh;
+}
+
+.github {
+    width: 5vh;
+}
+
+.tech {
+    margin: 0;
+    text-align: center;
+    font-size: 2vmin;
+}
