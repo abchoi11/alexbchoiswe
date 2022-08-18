@@ -33,14 +33,18 @@ function Writing(props) {
               genre={"Narrative"}
               publication={"Brown Univ. post- Magazine"}
               image={hobby}
+              quote={"\"That’s what I’m embracing now; I’ve chosen to do things for the sake of doing them and take back control of my hobbies for the sake of myself. \""}
+              link={"https://www.browndailyherald.com/article/2022/03/hobby-choi"}
             />
           </Col>
           <Col lg={4}>
             <Piece
-              title={"Scallion Pancakes"}
+              title={"파전 (pajeon)"}
               genre={"Poetry"}
               publication={"elementia"}
               image={scallion}
+              quote={"\"the tiredness of my bones seeps into the tissue of my marrow\""}
+              link={"https://www.jocolibrary.org/teens/elementia/article/pajeon-pajeon"}
             />
           </Col>
           <Col lg={4}>
@@ -49,16 +53,20 @@ function Writing(props) {
               genre={"Poetry"}
               publication={"Cathartic Youth Literary Magazine"}
               image={meditate}
+              quote={"\"fields of a darkened sorrow \n i reap nonetheless \n for there’s no grain \n that is truly bountiful forever \""}
+              link={"https://www.catharticlitmagazine.com/magazine/cry-me-to-nirvana-by-alex-choi-18-virginia"}
             />
           </Col>
         </Row>
         <Row>
           <Col lg={4}>
             <Piece
-              title={"Apollo"}
+              title={"apollo"}
               genre={"Poetry"}
               publication={"Cathartic Youth Literary Magazine"}
               image={apollo}
+              quote={"\"pull on my heart like guitar strings just make sure the melody is as sweet as your touch \""}
+              link={"https://www.catharticlitmagazine.com/magazine/apollo-by-alex-choi-18-virginia"}
             />
           </Col>
         </Row>

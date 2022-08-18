@@ -9,10 +9,9 @@ function Piece({title, image, genre, publication, quote, link}) {
         <h2 className={styles.title}>{title}</h2>
         <p>{genre} | {publication}</p>
         <p>
-          "I've chosen to do things for the sake of doing them and take back
-          control of my hobbies for the sake of myself."
+          {quote}
         </p>
-        <a href="">Read More</a>
+        <a href={link} target="_blank">Read More</a>
       </div>
     </div>
   );

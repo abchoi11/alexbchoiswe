@@ -171,6 +171,10 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .main {
+    height:auto;
+    overflow: auto;
+  }
   .heading {
     overflow: auto;
     white-space: normal;
@@ -198,6 +202,10 @@
   }
 
   .drawings {
+    width: 30vw;
+  }
+
+  .drawings:hover{
     width: 30vw;
   }
 

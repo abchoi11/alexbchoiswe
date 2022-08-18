@@ -43,3 +43,9 @@
     box-shadow: inset 200px 0 0 0 #4a6de2;
 
   }
+
+  @media only screen and (max-width: 992px) {
+      .link {
+          margin-left: 0;
+      }
+  }

@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Section from "../components/Experience/Section/Section";
 import Header from "../components/Header/Header";
 import NavigationBar from "../components/Navbar/NavigtionBar";
@@ -8,10 +8,9 @@ import fs from "../images/fs.png";
 import Footer from "../components/Footer/Footer";
 
 function Experience(props) {
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
@@ -29,9 +28,8 @@ function Experience(props) {
         company={"SciQuel"}
         date={"May 2022 - August 2022"}
         description={[
-          "SciQuel is a startup from the Harvard Innovation Lab that aims to make scientific journals more accessible",
-          "Built high-usage and responsive components utilizing React.js and React Bootstrap with internal trending API",
-          "Facilitated with a team of thirty-five web-developers in group discussions and development",
+          "Built Home Page and Header dropdown components utilizing React.js and React Bootstrap compatible with internal trending article API",
+          "Presented performance reviews in twice-weekly meetings with team of 35 software-engineers/managers",
         ]}
       />
       <Section
@@ -40,9 +38,8 @@ function Experience(props) {
         company={"Ivy CS Mentors"}
         date={"May 2022 - June 2022"}
         description={[
-          "SciQuel is a startup from the Harvard Innovation Lab that aims to make scientific journals more accessible",
-          "Built high-usage and responsive components utilizing React.js and React Bootstrap with internal trending API",
-          "Facilitated with a team of thirty-five web-developers in group discussions and development",
+          "Led sole responsibility of web-development resulting in $3,000 of customer transactions",
+          "Consistently adapted to feedback on UI/UX design for new premium service resulting in an uptick in of 20% in gross profit",
         ]}
       />
       <Section
@@ -51,13 +48,12 @@ function Experience(props) {
         company={"Full Stack at Brown"}
         date={"March 2022 - May 2022"}
         description={[
-          "SciQuel is a startup from the Harvard Innovation Lab that aims to make scientific journals more accessible",
-          "Built high-usage and responsive components utilizing React.js and React Bootstrap with internal trending API",
-          "Facilitated with a team of thirty-five web-developers in group discussions and development",
+          "Tasked with development of mobile login page paired with Firebase Google and Facebook user authentication",
+          "Consistently adapted to feedback from manager on design choices and UI design in team of 6 SWE/managers",
         ]}
         end={true}
       />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
