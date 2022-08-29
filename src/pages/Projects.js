@@ -4,6 +4,8 @@ import Header from "../components/Header/Header";
 import Project from "../components/Projects/Project/Project";
 import ps from "../images/pick-six.png";
 import personal from "../images/personal.png";
+import seam from "../images/seam.png"
+import decision from "../images/decision.png"
 import tetris from "../images/tetris.png";
 import Footer from "../components/Footer/Footer";
 
@@ -54,6 +56,22 @@ function Projects(props) {
           "Firebase",
         ]}
         git="https://github.com/abchoi11/alexbchoiswe"
+      />
+      <Project
+        title={"Seam Carver"}
+        description={[
+          "Generated DP algorithm to find and remove the ’least important seams’ to resize images dynamically"
+        ]}
+        image={seam}
+        techStack={["Python", "numpy"]}
+      />
+      <Project
+        title={"Decision Tree"}
+        description={[
+          "Developed recursive algorithm to generate Decision Tree with Object-Oriented-Design in Java", "Trained decision tree with CSV files — able to then generate a 99.7\% data set accuracy"
+        ]}
+        image={decision}
+        techStack={["Java"]}
       />
       <Project
         title={"Tetris"}
