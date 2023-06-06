@@ -3,9 +3,12 @@ import NavigationBar from "../components/Navbar/NavigtionBar";
 import Header from "../components/Header/Header";
 import Project from "../components/Projects/Project/Project";
 import ps from "../images/pick-six.png";
+import bot from "../images/bot.png";
+import bdb from "../images/bdb.png";
+import shot from "../images/shot.png";
 import personal from "../images/personal.png";
-import seam from "../images/seam.png"
-import decision from "../images/decision.png"
+import seam from "../images/seam.png";
+import decision from "../images/decision.png";
 import tetris from "../images/tetris.png";
 import Footer from "../components/Footer/Footer";
 
@@ -19,6 +22,50 @@ function Projects(props) {
           '"Our responsibility begins with the power to imagine… Where there’s no power to imagine there’s no responsibility that can arise"'
         }
         author={"Kafka on the Shore | Haruki Murakami"}
+      />
+      <Project
+        title={"Big Data Bowl 2023"}
+        description={[
+          "Calculated a self-correcting comparative elo model for analyzing both offensive and defensive lineman performance -- analyzed over 350,000 matchups",
+          "Developed spatial classification model that outputs probability of sacks, hurries, and hits based on positional input",
+        ]}
+        image={bdb}
+        techStack={[
+          "Python",
+          "TensorFlow",
+          "Pandas",
+          "Git/Github",
+        ]}
+        link={"https://www.kaggle.com/code/alexchoi11/pushing-the-line-analyzing-individual-linemen#3.-Formation-and-Spatial-Model-"}
+        git={"https://github.com/abchoi11/Big-Data-Bowl-2023"}
+      />
+      <Project
+        title={"Art of the Shot"}
+        description={[
+          "Utilized MediaPipe pose estimation model in order to extract bodily coordinates and calculate real-time angle measurements",
+          "Created normalized model of “optimal” shot performance by averaging 15 NBA players shot form and bounding for variance",
+          "Calculated real-time and post-processed graphs with  Matplotlib and Seaborn in order to compare user’s shot to preprocessed model",
+        ]}
+        image={shot}
+        techStack={["Python", "Numpy", "MediaPipe", "Seaborn", "Git/Github"]}
+      />
+      <Project
+        title={"Bruno on Track"}
+        description={[
+          "Developed Java serializing server with Spark in order to filter courses and update requirements logic system",
+          "Spearheaded interactive TypeScript-React front-end coupled with both Firebase Google authentication and Firestore database in order to create, store and load user data on login",
+        ]}
+        image={bot}
+        techStack={[
+          "Java",
+          "Spark",
+          "TypeScript",
+          "Firebase",
+          "React.ts",
+          "Bootstrap",
+          "Figma",
+          "Git/Github",
+        ]}
       />
       <Project
         title={"Pick Six AI"}
@@ -60,7 +107,7 @@ function Projects(props) {
       <Project
         title={"Seam Carver"}
         description={[
-          "Generated DP algorithm to find and remove the ’least important seams’ to resize images dynamically"
+          "Generated DP algorithm to find and remove the ’least important seams’ to resize images dynamically",
         ]}
         image={seam}
         techStack={["Python", "numpy"]}
@@ -68,7 +115,8 @@ function Projects(props) {
       <Project
         title={"Decision Tree"}
         description={[
-          "Developed recursive algorithm to generate Decision Tree with Object-Oriented-Design in Java", "Trained decision tree with CSV files — able to then generate a 99.7\% data set accuracy"
+          "Developed recursive algorithm to generate Decision Tree with Object-Oriented-Design in Java",
+          "Trained decision tree with CSV files — able to then generate a 99.7% data set accuracy",
         ]}
         image={decision}
         techStack={["Java"]}

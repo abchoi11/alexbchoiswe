@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Section from "../components/Experience/Section/Section";
 import Header from "../components/Header/Header";
 import NavigationBar from "../components/Navbar/NavigtionBar";
+import brightspot from "../images/brightspot.png";
 import sciquel from "../images/sciquel.png";
 import mentors from "../images/mentors.png";
 import fs from "../images/fs.png";
@@ -21,6 +22,16 @@ function Experience(props) {
           '"To love the glory of virtuous deeds is a sure proof of the love of virtue"'
         }
         author={"Of the Dignity or Meanness of Human Nature | David Hume"}
+      />
+      <Section
+        logo={brightspot}
+        title={"Software Engineer Intern"}
+        company={"Brightspot"}
+        date={"May 2023 - Present"}
+        description={[
+          "Utilized Java framework and Docker to deliver client-facing CMS service for Brigham Young University networks",
+          "Responded and resolved real time bug tickets for CMS that supports over 36,000 users on a daily basis across 900 sites",
+        ]}
       />
       <Section
         logo={sciquel}

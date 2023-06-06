@@ -8,6 +8,7 @@ import hobby from '../images/hobby.png'
 import scallion from '../images/scallion.jpg'
 import meditate from '../images/meditate.jpg'
 import apollo from '../images/apollo.jpg'
+import aapi from '../images/aapi.png'
 import Footer from "../components/Footer/Footer";
 
 function Writing(props) {
@@ -67,6 +68,16 @@ function Writing(props) {
               image={apollo}
               quote={"\"pull on my heart like guitar strings just make sure the melody is as sweet as your touch \""}
               link={"https://www.catharticlitmagazine.com/magazine/apollo-by-alex-choi-18-virginia"}
+            />
+          </Col>
+          <Col lg={4}>
+            <Piece
+              title={"To the AAPI Community"}
+              genre={"Narrative"}
+              publication={"Cathartic Youth Literary Magazine"}
+              image={aapi}
+              quote={"\"I have never been allowed to feel Asian.\""}
+              link={"http://headsupteens.org/our-thoughts-on-the-recent-events-surrounding-the-aapi-community/"}
             />
           </Col>
         </Row>
