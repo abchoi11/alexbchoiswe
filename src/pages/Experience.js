@@ -3,6 +3,7 @@ import Section from "../components/Experience/Section/Section";
 import Header from "../components/Header/Header";
 import NavigationBar from "../components/Navbar/NavigtionBar";
 import brightspot from "../images/brightspot.png";
+import brown from "../images/brown.png";
 import sciquel from "../images/sciquel.png";
 import mentors from "../images/mentors.png";
 import fs from "../images/fs.png";
@@ -34,6 +35,16 @@ function Experience(props) {
         ]}
       />
       <Section
+        logo={brown}
+        title={"Undergraduate Teaching Assistant"}
+        company={"Brown University"}
+        date={"January 2023 - May 2023"}
+        description={[
+          "Created lecture slides visualizing how the RANSAC algorithm bounds in multidimensional spaces and how it applies to image reconstruction",
+          "Implemented a RANSAC algorithm visualizer to allow 150+ students to be able to monitor their camera geometry estimation of the fundamental matrix",
+        ]}
+      />
+      <Section
         logo={sciquel}
         title={"Software Engineer Intern"}
         company={"SciQuel"}
@@ -57,7 +68,7 @@ function Experience(props) {
         logo={fs}
         title={"Software Engineer"}
         company={"Full Stack at Brown"}
-        date={"March 2022 - May 2022"}
+        date={"March 2022 - December 2022"}
         description={[
           "Tasked with development of mobile login page paired with Firebase Google and Facebook user authentication",
           "Consistently adapted to feedback from manager on design choices and UI design in team of 6 SWE/managers",
