@@ -34,7 +34,7 @@ function Writing(props) {
               genre={"Narrative"}
               publication={"Brown Univ. post- Magazine"}
               image={hobby}
-              quote={"\"That’s what I’m embracing now; I’ve chosen to do things for the sake of doing them and take back control of my hobbies for the sake of myself. \""}
+              quote={"I’ve chosen to do things for the sake of doing them and take back control of my hobbies for the sake of myself. \""}
               link={"https://www.browndailyherald.com/article/2022/03/hobby-choi"}
             />
           </Col>
@@ -68,16 +68,6 @@ function Writing(props) {
               image={apollo}
               quote={"\"pull on my heart like guitar strings just make sure the melody is as sweet as your touch \""}
               link={"https://www.catharticlitmagazine.com/magazine/apollo-by-alex-choi-18-virginia"}
-            />
-          </Col>
-          <Col lg={4}>
-            <Piece
-              title={"To the AAPI Community"}
-              genre={"Narrative"}
-              publication={"Cathartic Youth Literary Magazine"}
-              image={aapi}
-              quote={"\"I have never been allowed to feel Asian.\""}
-              link={"http://headsupteens.org/our-thoughts-on-the-recent-events-surrounding-the-aapi-community/"}
             />
           </Col>
         </Row>

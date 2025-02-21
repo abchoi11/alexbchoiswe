@@ -21,9 +21,18 @@ function Experience(props) {
       <Header
         title={"Experience"}
         quote={
-          '"To love the glory of virtuous deeds is a sure proof of the love of virtue"'
+          '"It is our attentiveness that is in short supply, our ability and willingness to do the work that awe requires."'
         }
-        author={"Of the Dignity or Meanness of Human Nature | David Hume"}
+        author={"The Anthropocene Reviewed | John Green"}
+      />
+      <Section
+        logo={capitalone}
+        title={"Associate Software Engineer"}
+        company={"Capital One"}
+        date={"August 2025"}
+        description={[
+         "coming soon ..."
+        ]}
       />
       <Section
         logo={capitalone}
